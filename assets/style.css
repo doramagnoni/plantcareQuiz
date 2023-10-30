@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Oswald:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #574143;
+}
+
+/*Generic Styles*/
+body {
+  background: #005B4C;
+  min-height: 100vh;
+  font-family: "DM+Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+/*Main Content*/
+
+main {
+
+  margin-top: 65px;
+  flex: 1 0 auto;
+  color: #FFEACE;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: url(../assets/images/E54975E2-EFDE-442C-B774-74611381C8B5.JPG) no-repeat center center/cover;
+}
+
+
+/* Footer */
+
+footer {
+  height: 100px;
+  z-index: 100;
+}
+
+#social-networks {
+
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+
+#social-networks i {
+  font-size: 300%;
+  padding: 15%;
+  color: #FFEACE;
+  transition: .3s ease;
+
+}
+
+#social-networks i:hover {
+  color: #D43C3C;
+}
+
+.button {
+  margin-left: 11rem;
+}

@@ -22,6 +22,43 @@
 
     <!--Main Section-->
     <main>
+        <div class="quiz-container">
+            <h1> How well do you know your plants?</h1>
+            <p>Test your knowledge of plant care and see how well you know the language of your green friends. Answer the following quiestions:</p>
+
+            <div id="quiz">
+                <p id="question"> Question 1: What is the essential factor for photosynthesis in plants?</p>
+
+                <label>
+                    <input type="radio" name="choices" value="A"> A. Carbon dioxide
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="choices" value="B"> B. Water
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="choices" value="C"> C. Sunlight
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="choices" value="D"> D. Fertilizer
+                </label>
+                <br>
+
+                <br>
+
+                <button onclick="checkAnswer()">Next</button>
+            </div>
+    
+            <div id="result" style="display: none;">
+                <p>Your Score: <span id="score">0</span></p>
+                <p id="message"></p>
+            </div>
+        </div>
 
     </main>
 

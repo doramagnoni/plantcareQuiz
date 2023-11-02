@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta Search Engines-->
-    <meta name="description"
-        content="Dori's Wonder Cabinet. A cabinet of curiosities and plant care tips">
-    <meta name="keywords"
-        content="plants, tropical plants, plant care, plant care tips">
+    <meta name="description" content="Dori's Wonder Cabinet. A cabinet of curiosities and plant care tips">
+    <meta name="keywords" content="plants, tropical plants, plant care, plant care tips">
 
     <!--Title-->
     <title>Plant Care Quiz</title>
@@ -22,33 +20,28 @@
 
     <!--Main Section-->
     <main>
-        <div class="quiz-container">
+        <div id="quiz-container">
             <h1> How well do you know your plants?</h1>
             <br>
             <br>
             <p>Test your knowledge of plant care and see how well you know the language of your green friends. Answer
                 the following quiestions:</p>
-            <br>
-            <div id="quiz-container">
-                <p id="question"> Question loads here.</p>
+                <br>
+              
+            <div id="question-container">
+                <p id="question">Question goes here.</p>
+            </div>
+            <div id="answer-container">
+                <button class="answer-btn">Answer 1</button>
+                <button class="answer-btn">Answer 2</button>
+                <button class="answer-btn">Answer 3</button>
+                <button class="answer-btn">Answer 4</button>
 
-                <div id="answer-container">
-                    <button class="answer-btn">Answer A</button>
-                    <button class="answer-btn">Answer B</button>
-                    <button class="answer-btn">Answer C</button>
-                    <button class="answer-btn">Answer D</button>
-
-                </div>
-
-                <button onclick="checkAnswer()">Next</button>
             </div>
 
-            <div id="result" style="display: none;">
-                <p>Your Score: <span id="score">0</span></p>
-                <p id="message"></p>
-            </div>
+            <p>Score: <span id="score">0</span></p>
+            <p id="feedback"></p>
         </div>
-
     </main>
 
     <!-- Footer -->

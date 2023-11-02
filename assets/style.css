@@ -6,44 +6,38 @@
 }
 
 
-
-/*Generic Styles*/
 body {
   background: #005B4C;
   min-height: 100vh;
   font-family: "DM+Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  text-align: center;
+
 
 }
 
 
-/*Main Content*/
+/*Main Section*/
 
 main {
   flex: 1 0 auto;
   color: #FFEACE;
-  display: flex;
-  flex-direction: column;
   padding-bottom: 10px;
   background: url(../assets/images/E54975E2-EFDE-442C-B774-74611381C8B5.JPG) no-repeat center center/cover;
 }
 
-.quiz-container {
+#quiz-container {
   font-size: 100%;
-    font-weight: 600;
-    background-color: rgba(39, 94, 71, 0.747);
-    border-radius: 30px 30px;
-    padding: 10px;
-    padding-top: 10px;
-    margin-top: 30px;
+  font-weight: 600;
+  background-color: rgba(39, 94, 71, 0.747);
+  border-radius: 30px 30px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-top: 30px;
 
 }
 
-
-h1 {
-    display: inline-flex;
-}
 
 /* Footer */
 

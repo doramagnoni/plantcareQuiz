@@ -1,12 +1,12 @@
 const questions = [{
         question: "What is the most essential factor for the photosynthesis in plants?",
-        answer: ["Carbon Dioxide", "Water", "Sunlight", "Fertilizer"],
+        answers: ["Carbon Dioxide", "Water", "Sunlight", "Fertilizer"],
         correct: "Sunlight"
     },
 
     {
         question: "How often should you water succulent plants?",
-        answer: ["Daily", "Weekly", "Monthly", "Irregularly"],
+        answers: ["Daily", "Weekly", "Monthly", "Irregularly"],
         correct: "Monthly"
     },
 

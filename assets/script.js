@@ -1,3 +1,4 @@
+
 const questions = [
 {
     question: "What is the most essential factor for the photosynthesis in plants?", 
@@ -12,10 +13,22 @@ const questions = [
 },    
 
 {
-    question: "HWhich of the following pests is common among houseplants and can damage the leaves?", 
+    question: "Which of the following pests is common among houseplants and can damage the leaves?", 
     choices: ["A. Aphids", "B. Bees" , "C. Ladybugs", "D. Earthworms"],
     correct: "A"
 },    
-
+//more quiestion here
 
 ];
+
+function loadQuestion() {
+
+}
+
+function checkAnswer() {
+
+}
+
+function showResult() {
+
+}

@@ -73,6 +73,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.querySelectorAll(".answer-btn");
 const scoreElement = document.getElementById("score");
 const feedbackElement = document.getElementById("feedback");
+const nextButton = document.getElementById("next-button");
 
 function startQuiz() {
   currentQuestion = 0;
@@ -87,8 +88,10 @@ function showQuestion() {
       answerButtons[i].innerText = questions[currentQuestion].answers[i];
       answerButtons[i].addEventListener("click", checkAnswer);
     }
+    nextButton.style.display = "none";
   } else {
     endQuiz();
+    nextButton.style.display = "none";
   }
 }
 
@@ -105,17 +108,30 @@ function checkAnswer(event) {
   showQuestion();
 }
 
+function nextQuestion() {
+  if (currentQuestion < questions.length - 1) {
+    currentQuestion++;
+    showQuestion();
+    feedbackElement.innerText = "";
+    nextButton.style.display = "none";
+  } else {
+    endQuiz();
+    nextButton.style.display = "none";
+  }
+}
+
 function endQuiz() {
   if (score === questions.length) {
     feedbackElement.innerText = "Congratulations! You are a plant expert and your green friends are lucky to have you!";
   } else if (score >= questions.length / 2) {
     feedbackElement.innerText = "Great job! You have a good understanfing of plant care!";
   } else {
-    feedbackElement.innerText = "Keep learning so you can improve your plant care knowlwdge!";
+    feedbackElement.innerText = "Keep learning so you can improve your plant care knowledge!";
   }
 
   questionElement.innerText = "Quiz Complete!";
   answerButtons.forEach(button => button.style.display = "none");
+  nextButton.style.display = "block"
 }
 
 startQuiz();

@@ -10,8 +10,6 @@ body {
   background: #005B4C;
   min-height: 100vh;
   font-family: "DM+Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -37,15 +35,8 @@ h1 {
   font-weight: 600;
   background-color: rgba(39, 94, 71, 0.847);
   border-radius: 30px 30px;
-  padding: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 70vh;
- 
 }
 
 #question-container>p {
@@ -96,4 +87,39 @@ footer {
 
 #social-networks i:hover {
   color: #D43C3C;
+
+
 }
+
+/* Media Query: tablets and larger (768 px and up)*/
+@media screen and (min-width: 768px) {
+
+  body {
+    font-size: 16px;
+    line-height: 1.6; 
+  }
+  
+  #quiz-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    }
+}
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+  
+ 
+}
+
+@media screen and (min-width: 1200px) {
+  
+
+  
+}
+

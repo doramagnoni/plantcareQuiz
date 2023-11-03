@@ -25,7 +25,7 @@ const questions = [{
   {
     question: "What is the purpose of pruning in plant care?",
     answers: ["To make the plant grow faster", "To remove dead or diseased parts", "To make the plant's leaves bigger", "To attract more butterflies"],
-    correct: "To attract more butterflies"
+    correct: "To remove dead or diseased parts"
 },
 
 {

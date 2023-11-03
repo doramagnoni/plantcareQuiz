@@ -98,7 +98,7 @@ function checkAnswer(event) {
 
 function endQuiz() {
   if (score===questions.length) {
-    feedbackElement.innerText = "Congratulations! You are a plant expert and your grren friends are lucky to have you!";
+    feedbackElement.innerText = "Congratulations! You are a plant expert and your green friends are lucky to have you!";
   } else if (score >= questions.length / 2) {
     feedbackElement.innerText = "Great job! You have a good understanfing of plant care!";
   } else {

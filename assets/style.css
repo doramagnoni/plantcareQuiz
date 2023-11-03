@@ -71,12 +71,16 @@ footer {
   padding: 10px 20px;
   margin: 5px;
   font-size: 16px;
+  font-weight: 600;
   border-radius: 30px 30px;
   gap: 2rem;
-  transition: .3s ease;
+  background-color: #4CAF50;
+  cursor: pointer;
+  transition: .6s ease;
 }
 .answer-btn:hover {
-  color: #D43C3C;
+  background-color: #0b7160;
+  color: #FFEACE;;
 }
 
 #social-networks i:hover {

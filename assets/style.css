@@ -26,7 +26,8 @@ main {
 }
 
 h1 {
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  ;
 }
 
 /* Quiz */
@@ -96,30 +97,29 @@ footer {
 
   body {
     font-size: 16px;
-    line-height: 1.6; 
+    line-height: 1.6;
   }
-  
+
   #quiz-container {
     padding: 10px;
+    margin: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70vh;
-    }
+  }
 }
 
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-  
- 
-}
+@media screen and (min-width: 992px) {}
 
 @media screen and (min-width: 1200px) {
-  
 
-  
+  #quiz-container {
+    margin: 70px;
+
+  }
+
 }
-

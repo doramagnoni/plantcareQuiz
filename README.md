@@ -224,6 +224,7 @@ ___
 
     * For creating the textual content I used ChatGpt.
 
+    * I used the tutorials on Java Script by Dani Krossing (https://www.youtube.com/@Dani_Krossing)
 
 
 [Back to Table of contents](#table-of-contents)

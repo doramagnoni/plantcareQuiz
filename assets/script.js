@@ -113,7 +113,6 @@ function nextQuestion() {
     currentQuestion++;
     showQuestion();
     feedbackElement.innerText = "";
-    nextButton.style.display = "none";
   } else {
     endQuiz();
     nextButton.style.display = "none";
@@ -131,7 +130,7 @@ function endQuiz() {
 
   questionElement.innerText = "Quiz Complete!";
   answerButtons.forEach(button => button.style.display = "none");
-  nextButton.style.display = "block"
+  nextButton.style.display = "none"
 }
 
 startQuiz();

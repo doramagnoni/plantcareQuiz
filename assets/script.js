@@ -12,9 +12,47 @@ const questions = [{
 
     {
         question: "Which of the following pests is common among houseplants and can damage the leaves?",
-        answer: ["Aphids", "Bees", "Ladybugs", "Earthworms"],
+        answers: ["Aphids", "Bees", "Ladybugs", "Earthworms"],
         correct: "Aphids"
     },
+
+    {
+      question: "Which of the following is NOT a suitable plant potting mix ingredient?",
+      answers: ["Perlite", "Sand", "Garden Soil", "Cofee Grounds"],
+      correct: "Cofee Grounds"
+  },
+
+  {
+    question: "What is the purpose of pruning in plant care?",
+    answers: ["To make the plant grow faster", "To remove dead or diseased parts", "To make the plant's leaves bigger", "To attract more butterflies"],
+    correct: "To attract more butterflies"
+},
+
+{
+  question: "Which of the following is a low-light houseplant that's suitable for spaces with minimal sunlight?",
+  answers: ["Snake Plant", "Aloe Vera", "Orchid", "Fiddle Leaf Fig"],
+  correct: "Orchid"
+},
+
+{
+  question: "Which of the following is a common method for propagating houseplants?",
+  answers: ["Division", "Singing to the Plants", "Giving them chocolate", "Playing clasical music"],
+  correct: "Division"
+},
+
+{
+  question: "When repotting a plant, what size should the new pot be compared to the old pot?",
+  answers: ["Smaller", "The same size", "Slightly larger", "Much larger"],
+  correct: "Slightly larger"
+},
+
+{
+  question: "What is the purpose of a humidity tray for indoor plants?",
+  answers: ["To serve as a coaster for the plant", "To catch excess water when watering", "To increase humidity around the plant", "To deter pests"],
+  correct: "To increase humidity around the plant"
+},
+
+    
     // Add more quiestion here
 
 ];

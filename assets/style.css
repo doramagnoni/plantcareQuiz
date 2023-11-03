@@ -10,6 +10,8 @@ body {
   background: #005B4C;
   min-height: 100vh;
   font-family: "DM+Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -23,6 +25,10 @@ main {
   color: #FFEACE;
   padding-bottom: 10px;
   background: url(../assets/images/E54975E2-EFDE-442C-B774-74611381C8B5.JPG) no-repeat center center/cover;
+}
+
+h1 {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);;
 }
 
 /* Quiz */

@@ -54,7 +54,8 @@ h1 {
   font-weight: 600;
   border-radius: 30px 30px;
   gap: 2rem;
-  background-color: #3a9b3d;
+  background-color: #469c49;
+  color: #211a11;
   cursor: pointer;
   transition: .6s ease;
 }
@@ -62,7 +63,10 @@ h1 {
 .answer-btn:hover {
   background-color: #0b7160;
   color: #FFEACE;
-  ;
+  
+}
+#next-button {
+   background-color:#D43C3C;
 }
 
 /* Footer */

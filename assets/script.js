@@ -66,14 +66,16 @@ const questions = [{
 
 ];
 
-let currentQuestion = 0;
-let score = 0;
+
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.querySelectorAll(".answer-btn");
 const scoreElement = document.getElementById("score");
 const feedbackElement = document.getElementById("feedback");
 const nextButton = document.getElementById("next-button");
+
+let currentQuestion = 0;
+let score = 0;
 
 function startQuiz() {
   currentQuestion = 0;
@@ -104,8 +106,8 @@ function checkAnswer(event) {
     feedbackElement.innerHTML = "<strong> Incorrect! </strong><br>" + questions[currentQuestion].explanation;
   }
   scoreElement.innerText = score;
-  currentQuestion++;
-  showQuestion();
+answerButtons.forEach(button => button.removeEventListener("click",checkAnswer));
+nextButton.style.display = "block";
 }
 
 function nextQuestion() {
@@ -113,9 +115,11 @@ function nextQuestion() {
     currentQuestion++;
     showQuestion();
     feedbackElement.innerText = "";
+    nextButton.style.display = "none";
   } else {
     endQuiz();
     nextButton.style.display = "none";
+
   }
 }
 

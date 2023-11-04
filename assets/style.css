@@ -60,7 +60,7 @@ h1 {
   background-color: #469c49;
   color: #211a11;
   cursor: pointer;
-  transition: .6s ease;
+  transition: .4s ease;
 }
 
 .buttonClick {
@@ -74,7 +74,7 @@ h1 {
 
 
 #next-button {
-  background-color: #D43C3C;
+  background-color: #469c49;
   padding: 10px 20px;
   margin: 10px 0;
   font-size: 16px;
@@ -82,7 +82,7 @@ h1 {
   border-radius: 30px 30px;
   gap: 2rem;
   cursor: pointer;
-  transition: .6s ease;
+  transition: .4s ease;
 }
 #next-button:hover {
 background-color: #0b7160;

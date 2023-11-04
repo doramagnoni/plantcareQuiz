@@ -38,7 +38,10 @@ h1 {
   padding-top: 20px;
   margin-top: 30px;
   padding-bottom: 30px;
-  
+}
+
+h1 {
+  margin-bottom: 10px;
 }
 
 #question-container>p {
@@ -63,10 +66,12 @@ h1 {
 .answer-btn:hover {
   background-color: #0b7160;
   color: #FFEACE;
-  
 }
+
+
 #next-button {
-   background-color:#D43C3C;
+  background-color: #D43C3C;
+  margin: 10px auto;
 }
 
 /* Footer */
@@ -77,7 +82,6 @@ footer {
 }
 
 #social-networks {
-
   padding: 10px 0;
   display: flex;
   justify-content: space-around;

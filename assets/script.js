@@ -111,7 +111,7 @@ nextButton.style.display = "block";
 }
 
 function nextQuestion() {
-  if (currentQuestion < questions.length - 1) {
+if (currentQuestion < questions.length - 1) {
     currentQuestion++;
     showQuestion();
     feedbackElement.innerText = "";

@@ -91,7 +91,7 @@ function showQuestion() {
       answerButtons[i].innerText = questions[currentQuestion].answers[i];
       answerButtons[i].addEventListener("click", checkAnswer);
     }
-    //nextButton.style.display = "none";
+   //nextButton.style.display = "none";
   } else {
     endQuiz();
     //nextButton.style.display = "none"; 
@@ -122,7 +122,7 @@ if (currentQuestion < questions.length - 1) {
     //nextButton.style.display = "none";
   } else {
     endQuiz();
-   // nextButton.style.display = "none";
+   //nextButton.style.display = "none";
 
   }
 }
@@ -138,7 +138,7 @@ function endQuiz() {
 
   questionElement.innerText = "Quiz Complete!";
   answerButtons.forEach(button => button.style.display = "none");
-  //nextButton.style.display = "none"
+  nextButton.style.display = "none";
 }
 
 startQuiz();

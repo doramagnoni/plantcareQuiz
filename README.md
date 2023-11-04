@@ -66,20 +66,20 @@ The Plant Care Quiz page offers an engaging and educational experience for plant
 - Stress Relief: Gardening and plant care can be therapeutic. Users may visit the website to unwind, relieve stress, and connect with the calming and nurturing aspects of plant life.
 
 ## Features
-The website consists of a single page quiz with multiple quiestions.
+The website consists of a single-page quiz with multiple questions.
 
 The website has the following features:
 
 ## Footer
 
-* Footer is consistent on all pages and it provides social links.
+* The footer is consistent on all pages and it provides social links.
 Each link will open in a separate tab in a browser.
 
 - **Diverse Questions:** Our quiz offers a variety of questions related to plant care, from watering schedules to common pests and more.
 
-- **User-Friendly Interface:** The website is easy to navigate, ensuring a seamless quiz experience on both desktop and mobile devices.
+- **User-Friendly Interface:** The website is easy to navigate, ensuring a seamless quiz experience on desktop and mobile devices.
 
-- **Engaging Content:** Test your knowledge and learn new plant care tips in an interactive and engaging way.
+- **Engaging Content:** Test your knowledge and learn new plant care tips interactively and engagingly.
 
 ## How to Play
 
@@ -110,7 +110,7 @@ Your score is calculated based on the number of correct answers you provide duri
 
 
 ### Colors
-Main colours used in a project:
+Main colors used in a project:
 * background color: #005B4C, #FFEACE
 * font color: #FFEACE, #574143
 * hoover color: #D43C3C
@@ -136,7 +136,7 @@ __
 * As a style language.
 
 ### Java Script
-* As a programing language.
+* As a programming language.
 
 ### Font Awesome
 * As an icon library for social links.
@@ -169,7 +169,7 @@ ___
  
 
 ## Compatibility testing
- Site was tested across multiple virtual mobile devices and browsers. I checked all supported devicesin Chrome developer tools. 
+ The site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
 
 ---
@@ -178,11 +178,12 @@ ___
 
 ## Performance testing
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check the performance of the website.
 
+![Screenshot 2023-11-04 at 14 33 16](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/6fcf06ac-8474-47b7-91c3-c62c6c40e316)
 
 ## Code Validation
- At the and of the project I used two websites to validate a code
+ At the end of the project I used two websites to validate a code
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
  * [W3C HTML Validator](https://validator.w3.org/) to test HTML

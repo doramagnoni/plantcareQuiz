@@ -4,6 +4,8 @@
 
 Welcome to the Plant Care Quiz! This quiz page is designed to test your knowledge of plant care, offering a fun and educational experience for plant enthusiasts and beginners alike. Challenge yourself with questions about plant care, and see how well you know your green friends.
 
+![Screenshot 2023-11-04 at 16 04 35](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/f9194f49-16ef-45e6-b2ea-c54b893a63aa)
+
 ## Table of Contents
 
 1. [UX]
@@ -28,7 +30,7 @@ Welcome to the Plant Care Quiz! This quiz page is designed to test your knowledg
 
 Concept: Plant Care Quiz is a milestone portfolio project that showcases my passion for web development and my love for plants. This interactive and educational website is designed to engage users in a fun and informative way, offering a range of questions related to plant care. Users can test their knowledge, receive instant feedback, and track their scores as they progress. 
 
-Plant Care Quiz is a responsive website build with HTML and CSS and Java Script.
+Plant Care Quiz is a responsive website built with HTML CSS and Java Script.
 
 
 ## [View life website in github pages](https://doramagnoni.github.io/plantcareQuiz/)
@@ -49,13 +51,13 @@ The Plant Care Quiz page offers an engaging and educational experience for plant
 
 - Content Creation: Regularly updating the website with fresh and engaging quiz content is important to maintain user interest. The owner may aim to create a content calendar and consistently add new quizzes or articles on plant care and related topics.
 
-- Brand Partnerships: Collaborating with plant care product or service providers can be a business goal. Such partnerships can not only provide additional revenue streams but also enhance the website's credibility and user experience.
+- Brand Partnerships: Collaborating with plant care products or service providers can be a business goal. Such partnerships can not only provide additional revenue streams but also enhance the website's credibility and user experience.
 
 - User Satisfaction: Ensuring that users have a positive experience on the website and find the quizzes enjoyable and informative is a fundamental goal. High user satisfaction can lead to word-of-mouth referrals and increased user retention.
 
 ## User goals
 
-- Learn and Educate: Users may visit the website to expand their knowledge about plant care, including proper watering, pest control, and plant identification. Their goal is to become more informed and skilled in taking care of their plants.
+- Learn and Educate: Users may visit the website to expand their knowledge about plant care, including proper watering, pest control, and plant identification. Their goal is to become more informed and skilled in caring for their plants.
 
 - Entertainment: Many users visit the website to have a fun and engaging experience. They aim to enjoy the quizzes, challenges, and interactive content related to plants.
 
@@ -194,34 +196,34 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 ___
 # Deployment
 
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
 I used push command in Gitpod to save changes into GitHub.
 
 To deploy a project I had to: 
 
-* Log in to GitHub and click on repository to deploy ([MP1](https://github.com/doramagnoni/plantcareQuiz.git))
-* select `Settings` and find GitHub Pages section at the left menu bar of the page
+* Log in to GitHub and click on the repository to deploy ([MP1](https://github.com/doramagnoni/plantcareQuiz.git))
+* Select `Settings` and find GitHub Pages section at the left menu bar of the page
 * from source select `main` and then `/docs` branch.
-* click `save` and page was deployed after auto-refresh.
+* click `save` and a page was deployed after auto-refresh.
 >  Your site is published at https://doramagnoni.github.io/plantcareQuiz/
 
-To run localy:
-* Log in to GitHub and click on repository to download ([MP1](https://github.com/doramagnoni/plantcareQuiz.git))
+To run locally:
+* Log in to GitHub and click on the repository to download ([MP1](https://github.com/doramagnoni/plantcareQuiz.git))
 * select `Code` and click Download the ZIP file.
-* after download you can extract the file and use it in your local environment 
+* After download you can extract the file and use it in your local environment 
 
 [Back to Table of contents](#table-of-contents)
 ___
 # Credits
 
 
-* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* To complete this project I used the Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 * Ideas and knowledge library:
 
     * [w3schools.com](https://www.w3schools.com)
 
-    * I found interesting ideas and inspiration in the YouTube tutorials of (https://www.youtube.com/@slayingthedragon) in particular on creating transitions for CSS and using Flexbox.
+    * I found interesting ideas and inspiration in the YouTube tutorials (https://www.youtube.com/@slayingthedragon) in particular on creating transitions for CSS and using Flexbox.
 
     * For creating the textual content I used ChatGpt.
 
@@ -232,6 +234,10 @@ ___
 ___
 
 # Screenshots
+![Screenshot 2023-11-04 at 16 04 35](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/51d2d7cc-cade-4286-a173-a5f0f84c439e)
+![Screenshot 2023-11-04 at 16 05 02](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/217f25f7-b05d-4b24-b642-4bfb56e39e3e)
+![Screenshot 2023-11-04 at 16 05 56](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/4614f942-efc3-4ceb-a847-ef0825063291)
+![Screenshot 2023-11-04 at 16 06 33](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/4534e329-b64a-4459-b4c0-5e5d7a588e6f)
 
 
 

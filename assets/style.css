@@ -63,6 +63,10 @@ h1 {
   transition: .6s ease;
 }
 
+.buttonClick {
+  background-color: #0b7160;
+}
+
 .answer-btn:hover {
   background-color: #0b7160;
   color: #FFEACE;
@@ -71,7 +75,18 @@ h1 {
 
 #next-button {
   background-color: #D43C3C;
-  margin: 10px auto;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px 30px;
+  gap: 2rem;
+  cursor: pointer;
+  transition: .6s ease;
+}
+#next-button:hover {
+background-color: #0b7160;
+color: #FFEACE;
 }
 
 /* Footer */

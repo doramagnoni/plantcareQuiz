@@ -76,6 +76,7 @@ const nextButton = document.getElementById("next-button");
 
 let currentQuestion = 0;
 let score = 0;
+let selectedElement;
 
 function startQuiz() {
   currentQuestion = 0;
@@ -90,14 +91,16 @@ function showQuestion() {
       answerButtons[i].innerText = questions[currentQuestion].answers[i];
       answerButtons[i].addEventListener("click", checkAnswer);
     }
-    nextButton.style.display = "none";
+    //nextButton.style.display = "none";
   } else {
     endQuiz();
-    nextButton.style.display = "none";
+    //nextButton.style.display = "none"; 
   }
 }
 
 function checkAnswer(event) {
+  selectedElement = event.target;
+  selectedElement.classList.add("buttonClick");
   const selectedAnswer = event.target.innerText;
   if (selectedAnswer === questions[currentQuestion].correct) {
     score++;
@@ -107,18 +110,19 @@ function checkAnswer(event) {
   }
   scoreElement.innerText = score;
 answerButtons.forEach(button => button.removeEventListener("click",checkAnswer));
-nextButton.style.display = "block";
+//nextButton.style.display = "block";
 }
 
 function nextQuestion() {
+  selectedElement.classList.remove("buttonClick");
 if (currentQuestion < questions.length - 1) {
     currentQuestion++;
     showQuestion();
     feedbackElement.innerText = "";
-    nextButton.style.display = "none";
+    //nextButton.style.display = "none";
   } else {
     endQuiz();
-    nextButton.style.display = "none";
+   // nextButton.style.display = "none";
 
   }
 }
@@ -134,7 +138,7 @@ function endQuiz() {
 
   questionElement.innerText = "Quiz Complete!";
   answerButtons.forEach(button => button.style.display = "none");
-  nextButton.style.display = "none"
+  //nextButton.style.display = "none"
 }
 
 startQuiz();

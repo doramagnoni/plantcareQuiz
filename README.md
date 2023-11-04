@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Welcome to the Plant Care Quiz! This quiz page is designed to test your knowledge of plant care, offering a fun and educational experience for plant enthusiasts and beginners alike. Challenge yourself with questions about plant care, and see how well you know your green friends.
+Welcome to the Plant Care Quiz! This quiz page is designed to test your knowledge of plant care, offering a fun and educational experience for plant enthusiasts and beginners alike. The quiz is part of the DoriWonderCabinet project which is designed to help beginners and advanced plant enthusiasts on their quest to take care of their plants.
+
+Challenge yourself with questions about plant care, and see how well you know your green friends.
 
 ![Screenshot 2023-11-04 at 16 04 35](https://github.com/doramagnoni/plantcareQuiz/assets/137621206/f9194f49-16ef-45e6-b2ea-c54b893a63aa)
 
@@ -197,7 +199,7 @@ ___
 # Deployment
 
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
-I used push command in Gitpod to save changes into GitHub.
+I used the push command in Gitpod to save changes into GitHub.
 
 To deploy a project I had to: 
 
@@ -210,7 +212,7 @@ To deploy a project I had to:
 To run locally:
 * Log in to GitHub and click on the repository to download ([MP1](https://github.com/doramagnoni/plantcareQuiz.git))
 * select `Code` and click Download the ZIP file.
-* After download you can extract the file and use it in your local environment 
+* After downloading you can extract the file and use it in your local environment 
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -228,6 +230,8 @@ ___
     * For creating the textual content I used ChatGpt.
 
     * I used the tutorials on Java Script by Dani Krossing (https://www.youtube.com/@Dani_Krossing)
+      
+    * I would like to express my gratitude to my mentor Adegbenga Adeye who helped me extensively fix problems and errors with my code and supported me very patiently throughout all the stages of the creation of this portfolio. 
 
 
 [Back to Table of contents](#table-of-contents)

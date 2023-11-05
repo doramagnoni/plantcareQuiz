@@ -34,7 +34,7 @@ const questions = [{
   },
 
   {
-    question: "6. Which of the following is a low-light houseplant that's suitable for spaces with minimal sunlight?",
+    question: "6. Which of the following is a low-light houseplant that is suitable for spaces with minimal sunlight?",
     answers: ["Snake Plant", "Aloe Vera", "Orchid", "Fiddle Leaf Fig"],
     correct: "Snake Plant",
     explanation: "Snake plants are known for their tolerance of low light conditions and are suitable for spaces with minimal sunlight."

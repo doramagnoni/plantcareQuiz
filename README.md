@@ -191,6 +191,7 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
  * [W3C HTML Validator](https://validator.w3.org/) to test HTML
+ * [Jshint](https://jshint.com/) to text the JS
 
 
 [Back to Table of contents](#table-of-contents)

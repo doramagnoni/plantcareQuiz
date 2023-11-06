@@ -232,7 +232,7 @@ ___
 
     * I used the tutorials on Java Script by Dani Krossing (https://www.youtube.com/@Dani_Krossing)
       
-    * I would like to express my gratitude to my mentor Adegbenga Adeye who helped me extensively fix problems and errors with my code and supported me very patiently throughout all the stages of the creation of this portfolio. 
+    * I would like to express my gratitude to my mentor Adegbenga Adeye who helped me extensively to fix numerous problems with my code and supported me very patiently throughout all the stages of the creation of this portfolio. 
 
 
 [Back to Table of contents](#table-of-contents)
